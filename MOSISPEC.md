@@ -36,7 +36,7 @@ Design and prepare 2 workshop stations based on the Lever Prize idea session usi
 
 #### Requirements
 
-* A Basic Liverpool to Manchester train map
+ * A Basic Liverpool to Manchester train map
  * 3 Pi’s
  * 3 HDMI Cables
  * 3 LCD HDMI/HDMI Adaptor compatible Screens
@@ -82,7 +82,7 @@ Freeform use of the Python `mcpi` API to prototype the behaviour of passengers a
 
 ### Features
 
-* Difficult High Level Interaction/Learning with tutor
+ * Difficult High Level Interaction/Learning with tutor
  * Defined by participants Ability
 
 ### Requirements
