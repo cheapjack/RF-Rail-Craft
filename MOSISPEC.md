@@ -5,7 +5,7 @@
 
 ## Minecraft Train installation
 
-Build 1 kiosked minecraft game controllable by 2 - 4 Signal 'levers' potentially using historical MOSI equipment, depending on a meeting with MOSI to source said levers by the 5th August 2016 
+Build 1 kiosked minecraft game controllable by 2 - 4 Signal 'levers' potentially using historical MOSI equipment, using adapted [RF-Craft](https://github.com/cheapjack/RF-Craft) boards and `mcpi` API depending on a meeting with **MOSI** to source said levers by the **5th August 2016** 
 
 #### Features
  * Lowest Level ‘Passerby’ Interaction
@@ -23,7 +23,7 @@ Build 1 kiosked minecraft game controllable by 2 - 4 Signal 'levers' potentially
 
 ## Workshop Stations
 
-Design and prepare 2 workshop stations based on the Lever Prize idea session using existing [RF-Craft](git@github.com:cheapjack/RF-Rail-Craft.git) boards and code resources
+Design and prepare 2 workshop stations based on the Lever Prize idea session using existing [RF-Craft](https://github.com/cheapjack/RF-Craft) boards and code resources
 
 ### Building carriages project
 
