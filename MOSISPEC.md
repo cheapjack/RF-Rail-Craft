@@ -1,7 +1,7 @@
 
 # Specification for MOSI Minecraft Maker Project at Manchester MakeFest
 
-![AllAboard](https://github.com/cheapjack/RF-Rail-Craft/images/RF-Rail-Craft.png)
+![AllAboard](https://github.com/cheapjack/RF-Rail-Craft/blob/master/images/RF-Rail-Craft.png)
 
 ## Minecraft Train installation
 
