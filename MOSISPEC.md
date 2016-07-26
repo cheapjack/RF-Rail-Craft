@@ -19,7 +19,8 @@ Build 1 kiosked minecraft game controllable by 2 - 4 Signal 'levers' potentially
  * 1 ethernet switch
  * 5 RF-Craft boards
  * 4’ x 2’ footprint
-(Artist Kit)
+
+(All Artist Kit)
 
 ## Workshop Stations
 
