@@ -1,24 +1,25 @@
 
-# Specification for MOSI Minecraft Maker Project at Manchester MakeFest
+# Specification for MSI Minecraft Maker Project at Manchester MakeFest
 
 ![AllAboard](https://github.com/cheapjack/RF-Rail-Craft/blob/master/images/RF-Rail-Craft.png)
 
-## Minecraft Train installation
+## Minecraft Train installation **Station 1**
 
-Build 1 kiosked minecraft game controllable by 2 - 4 Signal 'levers' potentially using historical MOSI equipment, using adapted [RF-Craft](https://github.com/cheapjack/RF-Craft) boards and `mcpi` API depending on a meeting with **MOSI** to source said levers by the **5th August 2016** 
+Build 1 minecraft installation controllable by 4 minecraft [RF-Craft](https://github.com/cheapjack/RF-Craft) buttons to actuate 2 oil lamps from the MSI handling collection and control simple train model with the python `mcpi` API.
 
 #### Features
  * Lowest Level ‘Passerby’ Interaction
- * Basic train track and stations, train goes back and forth controlled by buttons/levers
+ * Basic train track and stations, train goes back and forth controlled by Minecraft Buttons, Lights up 2 lamps from handling collections
 
 #### Requirements
- * A Basic Liverpool to Manchester train map
- * 2 Pi’s
+ * A Basic Liverpool to Manchester train map (Ross)
+ * 2 Pi’s (Ross)
  * 2 LCD HDMI/HDMI Adaptor compatible Screens
- * 2 Mice and Keyboards
- * 1 ethernet switch
- * 5 RF-Craft boards
- * 4’ x 2’ footprint
+ * 2 Mice and Keyboards and CAT5 cables 1m (Ross)
+ * 1 ethernet switch (Ross)
+ * 2 RF-Craft boards (Ross)
+ * 2 LED Modded train lamps from handling collection (Ross/MSI)
+ * 4’ x 2’ footprint (Done)
 
 (All Artist Kit)
 
@@ -26,9 +27,9 @@ Build 1 kiosked minecraft game controllable by 2 - 4 Signal 'levers' potentially
 
 Design and prepare 2 workshop stations based on the Lever Prize idea session using existing [RF-Craft](https://github.com/cheapjack/RF-Craft) boards and code resources
 
-### Building carriages project
+### Building carriages project **Station 2**
 
-2 ‘stations’ for free roam players to build on carriage ‘templates’ based on images of the kind of early carriages MOSI have image reference for 
+4 ‘stations’ for free roam players to build on carriage ‘templates’ based on images of the kind of early carriages MOSI have image reference for 
 1 ‘station’ visualises the train as moving using a fixed camera entity traversing from front to back of the train
 
 #### Features
@@ -38,14 +39,14 @@ Design and prepare 2 workshop stations based on the Lever Prize idea session usi
 #### Requirements
 
  * A Basic Liverpool to Manchester train map
- * 3 Pi’s
- * 3 HDMI Cables
- * 3 LCD HDMI/HDMI Adaptor compatible Screens
- * 3 Mice and Keyboards
+ * 5 Pi’s
+ * 5 HDMI Cables
+ * 5 LCD HDMI/HDMI Adaptor compatible Screens
+ * 5 Mice and Keyboards and CAT5 cables 1m
  * 1 ethernet switch
-(FACT/MOSI kit)
+(FACT/MSI kit)
 
-## Rail safety via signalling
+## Rail safety via signalling **Station 3**
 
 Control and modify a Basic Signal crossing
 
@@ -56,43 +57,23 @@ Control and modify a Basic Signal crossing
 
 ### Requirements
 
- * 2 Pi’s
- * 2 LCD HDMI/HDMI Adaptor compatible Screens
- * 2 HDMI Cables
- * 2 Mice and Keyboards
+ * 4 Pi’s
+ * 4 LCD HDMI/HDMI Adaptor compatible Screens
+ * 4 HDMI Cables
+ * 4 Mice and Keyboards and CAT5 cables 1m
  * 1 ethernet switch
- * (FACT/MOSI Kit)
+ * 4 RF-Craft boards
+ * (FACT/MSI Kit)
 
 
-## TOTAL Requirements from FACT/MOSI
+## TOTAL Requirements from FACT/MSI
 
- * 5 x HDMI Cable (FACT)
- * 5 x HDMI compatible monitors (don’t have to be HD) (MOSI/FACT)
- * 5 x RPi’s (FACT) (Use existing FACTLab kit)
- * 2 x 5port ethernet switch & cabling (FACT)
- * Installation Location (MOSI)
+ * 9 x HDMI Cable/VGA dongle (FACT/MSI)
+ * 11 x HDMI compatible monitors (don’t have to be HD) (MSI/FACT)
+ * 9 x RPi’s (FACT/MSI) (Use existing FACTLab kit)
+ * 2 x [5 port ethernet switch](http://www.amazon.co.uk/dp/B0000E5SEQ) & 9 CAT5 1m connectors (FACT)
+ * Installation Location (MSI) <li>[x]</li>
 
-
-### Additional if have enough kit
-
-### Station Master 
-
-Sending people to platforms
-
-Freeform use of the Python `mcpi` API to prototype the behaviour of passengers and trains at a station
-
-### Features
-
- * Difficult High Level Interaction/Learning with tutor
- * Defined by participants Ability
-
-### Requirements
-
- * 2 Pi’s
- * 2 LCD HDMI/HDMI Adaptor compatible Screens
- * 2 Mice and Keyboards
- * 1 ethernet switch
- * (FACT/MOSI Kit)
 
 
 
