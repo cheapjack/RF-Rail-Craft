@@ -71,7 +71,8 @@ Control and modify a Basic Signal crossing
  * 9 x HDMI Cable/VGA dongle (FACT/MSI)
  * 11 x HDMI compatible monitors (don’t have to be HD) (MSI/FACT)
  * 9 x RPi’s (FACT/MSI) (Use existing FACTLab kit)
- * 2 x [5 port ethernet switch](http://www.amazon.co.uk/dp/B0000E5SEQ) & 9 CAT5 1m connectors (FACT)
+ * 9 Mice and Keyboards
+* 2 x [5 port ethernet switch](http://www.amazon.co.uk/dp/B0000E5SEQ) & 9 CAT5 1m connectors (FACT)
  * Installation Location (MSI) Done
 
 ## Install Get in will be Friday 19th August evening from 5pm so will need to pickup FACT kit that afternoon.
