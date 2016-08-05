@@ -21,7 +21,7 @@ Build 1 minecraft installation controllable by 4 minecraft [RF-Craft](https://gi
  * 2 LED Modded train lamps from handling collection (Ross/MSI)
  * 4’ x 2’ footprint (Done)
 
-(All Artist Kit)
+(All Artist Kit except for Screens)
 
 ## Workshop Stations
 
