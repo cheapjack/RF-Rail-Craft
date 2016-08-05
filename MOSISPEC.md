@@ -72,7 +72,7 @@ Control and modify a Basic Signal crossing
  * 11 x HDMI compatible monitors (don’t have to be HD) (MSI/FACT)
  * 9 x RPi’s (FACT/MSI) (Use existing FACTLab kit)
  * 2 x [5 port ethernet switch](http://www.amazon.co.uk/dp/B0000E5SEQ) & 9 CAT5 1m connectors (FACT)
- * Installation Location (MSI) <li>[x]</li>
+ * Installation Location (MSI) Done
 
 
 
