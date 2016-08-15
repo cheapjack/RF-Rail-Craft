@@ -4,29 +4,31 @@
 from mcpi import minecraft
 
 # connect to the game locally, ie on your pi
-mc = minecraft.Minecraft.create()
+mc = minecraft.Minecraft.create("mc.fact.co.uk")
 
 #Define a Carriage function
 
 def CarriageTemplate(xpos, ypos, zpos, length, width, numberOfCarriages, material, materialType):
     # main carriage chassis
     for i in range(1,numberOfCarriages):
-        mc.setBlocks((xpos*i), ypos + 1, zpos, (xpos*i) + length, ypos + 1, zpos + width, material, materialtype)
+        mc.setBlocks(xpos+(i*(length+1)) + 1, ypos + 1, zpos, (xpos+(i*length+1)) + length, ypos + 1, zpos + width, material, materialType)
+        #Make gaps
         # Make 4 wheels
-        mc.setBlock((xpos*i) + 2, ypos, zpos - 1), 89)
-        mc.setBlock((xpos*i) + length - 2, ypos, zpos - 1, 89)
-        mc.setBlock((xpos*i) + 2, ypos, zpos + (width + 1), 89)
-        mc.setBlock((xpos*i) + length - 2, ypos, zpos + (width + 1), 89)
+        mc.setBlock(xpos + (i*(length+1)) + 1, ypos, zpos - 1, 89)
+        mc.setBlock(xpos + (i*(length+1)) + length - 1, ypos, zpos - 1, 89)
+        mc.setBlock(xpos + (i*(length+1)) + 1, ypos, zpos + (width + 1), 89)
+        mc.setBlock(xpos + (i*(length+1)) + length - 1, ypos, zpos + (width + 1), 89)
+
 # Send a message to minecraft console
 mc.postToChat("Hello Minecraft World!")
 mc.postToChat("We need rolling stock!")
 mc.postToChat("Lets get building carriages!")
 playerTilePos = mc.player.getTilePos()
+mc.postToChat("TilePos is " + str(playerTilePos))
 # Remember our Carriage function above needs the values Starting xpos, ypos, zpos, length of carriage, width of carriage, numberOfCarriages, blockmaterial, blockmaterialType.
 
-CarriageTemplate(playerTilePos.x, playerTilePos.y, playerTilePos.z, 6, 2, 13, 1)
-CarriageTemplate(10, 1, 10, 6, 2, 13, 1)
+CarriageTemplate(playerTilePos.x+1, playerTilePos.y, playerTilePos.z+1, 6, 2, 4, 42, 0)
 #print to minecraft console so we know what we did
-mc.postToChat("Building " + str(numberOfCarriages) + " Carriage chassis!")
+mc.postToChat("Building Carriage chassis!")
 
 
