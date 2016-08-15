@@ -4,7 +4,7 @@
 from mcpi import minecraft
 
 # connect to the game locally, ie on your pi
-mc = minecraft.Minecraft.create("mc.fact.co.uk")
+mc = minecraft.Minecraft.create()
 
 #Define a Carriage function
 
@@ -26,7 +26,7 @@ mc.postToChat("Lets get building carriages!")
 playerTilePos = mc.player.getTilePos()
 mc.postToChat("TilePos is " + str(playerTilePos))
 # Remember our Carriage function above needs the values Starting xpos, ypos, zpos, length of carriage, width of carriage, numberOfCarriages, blockmaterial, blockmaterialType.
-
+# Call our Carriage Function
 CarriageTemplate(playerTilePos.x+1, playerTilePos.y, playerTilePos.z+1, 6, 2, 4, 42, 0)
 #print to minecraft console so we know what we did
 mc.postToChat("Building Carriage chassis!")
