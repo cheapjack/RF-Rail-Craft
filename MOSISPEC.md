@@ -14,7 +14,7 @@ Build 1 minecraft installation controllable by 4 minecraft [RF-Craft](https://gi
 #### Requirements
  * A Basic Liverpool to Manchester train map (Ross)
  * 2 Pi’s (Ross)
- * 2 LCD HDMI/HDMI Adaptor compatible Screens
+ * 2 LCD HDMI/HDMI Adaptor compatible Screens (MSI)
  * 2 Mice and Keyboards and CAT5 cables 1m (Ross)
  * 1 ethernet switch (Ross)
  * 2 RF-Craft boards (Ross)
