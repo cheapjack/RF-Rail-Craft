@@ -4,22 +4,22 @@
 from mcpi import minecraft
 
 # connect to the game locally, ie on your pi
-#mc = minecraft.Minecraft.create()
-mc = minecraft.Minecraft.create("mc.fact.co.uk")
+mc = minecraft.Minecraft.create()
 
 #Define a Carriage function
 
 def CarriageTemplate(xpos, ypos, zpos, length, width, numberOfCarriages, material, materialType):
+    length = length + 1
     # main carriage chassis
-    for i in range(1,numberOfCarriages):
+    for i in range(1,numberOfCarriages + 1):
         mc.setBlocks(xpos + (i*length) + 1, ypos + 1, zpos, (xpos+(i*length)) + length + 1, ypos + 1, zpos + width, material, materialType)
         #Make gaps
         mc.setBlocks(xpos + (i*length) + length, ypos + 1, zpos, xpos + (i*length) + length, ypos + 1, zpos + width, 0)
         # Make 4 wheels
-        mc.setBlock(xpos + (i*length) + 1, ypos, zpos - 1, 89)
-        mc.setBlock(xpos + (i*length) + length - 1, ypos, zpos - 1, 89)
-        mc.setBlock(xpos + (i*length) + 1, ypos, zpos + (width + 1), 89)
-        mc.setBlock(xpos + (i*length) + length - 1, ypos, zpos + (width + 1), 89)
+        mc.setBlock(xpos + (i*length) + 2, ypos, zpos - 1, 57)
+        mc.setBlock(xpos + (i*length) + length - 2, ypos, zpos - 1, 57)
+        mc.setBlock(xpos + (i*length) + 2, ypos, zpos + (width + 1), 57)
+        mc.setBlock(xpos + (i*length) + length - 2, ypos, zpos + (width + 1), 57)
 
 # Send a message to minecraft console
 mc.postToChat("Hello Minecraft World!")
