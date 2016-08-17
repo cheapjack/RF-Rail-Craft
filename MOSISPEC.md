@@ -75,7 +75,8 @@ Control and modify a Basic Signal crossing
  * 1 x [5 port ethernet switch](http://www.amazon.co.uk/dp/B0000E5SEQ) & 5 CAT5 1m connectors (FACT)
  * Plugs for 11 screens/RPi/switch (FACT)
 
-## Install Get in will be Friday 19th August evening from 5pm so will need to pickup FACT kit that afternoon.
+## Install Get in will be Friday 19th August evening from 5pm Ross taking his kit and DoESLiverpool made-invaders so Mark/Neil Winterburn bringing FACT kit 
 
+* Need to confirm loading location at MSI
 
 
