@@ -1,6 +1,6 @@
 ### Building carriages project **Station 2**
 
-4 Pi Minecraft Games for players to build on carriage chassis ‘templates’ based on images of the early Liverpool and Manchester Railway (L&MR)
+4 Pi Minecraft Games for players to build on carriage chassis ‘templates’ based on images of the early [Liverpool and Manchester Railway](https://en.wikipedia.org/wiki/Liverpool_and_Manchester_Railway) (L&MR)
 
 1 monitor and RPi visualises the train as moving, using a fixed camera entity traversing from front to back of the train
 
