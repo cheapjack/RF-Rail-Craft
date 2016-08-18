@@ -1,4 +1,7 @@
 
+# Minecraft RPi Controls
+New to Minecraft Controls on the Pi?
+
 ## Movement
 ### Mouse
 
