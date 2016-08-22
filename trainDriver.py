@@ -10,8 +10,7 @@ mc = minecraft.Minecraft.create()
 # or specify a server and optionally, a port
 #mc = minecraft.Minecraft.create("mc.fact.co.uk")
 
-#ser = serial.Serial('/dev/ttyAMA0', 9600, timeout=1)
-#Make sure you release the serial port using
+# Make sure you release the serial port using
 # pi$ raspi-config
 # and disable the shell and kernel messages to serial its option A8 in the (9) Advanced Options MENU
 # Otherwise the port will be used elsewhere

@@ -10,16 +10,18 @@ mc = minecraft.Minecraft.create()
 # or specify a server and optionally, a port
 #mc = minecraft.Minecraft.create("mc.fact.co.uk")
 
-#ser = serial.Serial('/dev/ttyAMA0', 9600, timeout=1)
+# Make sure you release the serial port using
+# pi$ raspi-config
+# and disable the shell and kernel messages to serial its option A8 in the (9) Advanced Options MENU
+# Otherwise the port will be used elsewhere
+
 ser = serial.Serial('/dev/ttyAMA0', 9600)
-#ser = serial.Serial('/dev/ttyAMA0', 9600, timeout=0, parity=serial.PARITY_EVEN, rtscts=1)
 mc.postToChat("Connected to mcpi Serial says " + str(ser.name))
 red_button_received = "1,1\r\n"
 yellow_button_received = "2,1\r\n"
 green_button_received = "3,1\r\n"
 blue_button_received = "4,1\r\n"
-button5_received = "5,1\r\n"
-#clear area
+# clear area option
 #mc.setBlocks(94, 1 ,126,-127 ,10, -99, 0, 0)
 
 def clearTrain(xpos, ypos, zpos, length,height, width):
