@@ -1,23 +1,14 @@
 #!/usr/python
 
-# import mcpi, you will need the mcpi directory to be local to the carriage.py ie in the same directory.
+# import mcpi, you will need the mcpi directory to be local to the trainDriver.py ie in the same directory.
 from mcpi import minecraft
 from time import sleep
-import serial
 
 # connect to the game locally, ie on your pi
 mc = minecraft.Minecraft.create()
 # or specify a server and optionally, a port
 #mc = minecraft.Minecraft.create("mc.fact.co.uk")
 
-# Make sure you release the serial port using
-# pi$ raspi-config
-# and disable the shell and kernel messages to serial its option A8 in the (9) Advanced Options MENU
-# Otherwise the port will be used elsewhere
-ser = serial.Serial('/dev/ttyAMA0', 9600)
-#ser = serial.Serial('/dev/ttyAMA0', 9600, timeout=0, parity=serial.PARITY_EVEN, rtscts=1)
-mc.postToChat("Connected to mcpi Serial says " + str(ser.name))
-green_button_received = "3,1\r\n"
 #clear area
 #mc.setBlocks(94, 1 ,126,-127 ,10, -99, 0, 0)
 
@@ -125,6 +116,7 @@ mc.postToChat("We need a track!")
 # Clear the track
 #mc.postToChat("Clear the line")
 mc.setBlocks(-158, 12, 35, 200, 21, 39, 0,0)
+# Build Options
 # Build a track
 #Track(-158, 12, 35, 250, 4, 42, 0)
 # Build a viaduct
@@ -138,7 +130,6 @@ Train(67, 12, 36, 6, 2, 4, 42, 0)
 # Remember our Carriage function above needs the values Starting xpos, ypos, zpos, length of carriage, width of carriage, numberOfCarriages, blockmaterial, blockmaterialType.
 # Call our Carriage Function
 # Train takes StartXpos, ypos, zpos, length, width, numberOfCarriages, material,materialType):
-mc.postToChat("Waiting for buttons!")
 #print to minecraft console so we know what we did
 mc.postToChat("Lets get building a train!")
 
@@ -146,9 +137,7 @@ mc.postToChat("Lets get building a train!")
 try:
     while(True):
         moving = False
-        #define serialcommand
         mc.postToChat("Ok All aboard! Starting Train!")
-        print("Green Pressed")
         mc.camera.setNormal()
         moving = True
         direction = 1
@@ -179,13 +168,10 @@ try:
                 mc.postToChat("Back to Manchester!")
                 direction = direction * -1
                 mc.postToChat("direction = " + str(direction))
-            #track.startCar(1)
             sleep(0.5)
         except KeyboardInterrupt:
     print("stopped")
 finally:
     #stop everything
-    #track.stop()
-    ser.close()
 
 

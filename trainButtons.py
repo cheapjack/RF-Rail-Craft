@@ -1,6 +1,6 @@
 #!/usr/python
 
-# import mcpi, you will need the mcpi directory to be local to the carriage.py ie in the same directory.
+# import mcpi, you will need the mcpi directory to be local to the trainButtons.py ie in the same directory.
 from mcpi import minecraft
 from time import sleep
 import serial
