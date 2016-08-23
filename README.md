@@ -1,11 +1,12 @@
 # RF-Rail-Craft
 
+### Code and make files for MOSI/FACT Lever Prize Installation
+
 ![No Of Participants](https://img.shields.io/badge/participants%20estimate-630-brightgreen.svg)
 
 ![rfrailcraft1](https://cloud.githubusercontent.com/assets/128456/17853611/905fe902-6865-11e6-85e0-c6b2cbde2655.jpg)
 ![rfrailcraft2](https://cloud.githubusercontent.com/assets/128456/17854274/50024720-6869-11e6-8061-583f26352347.jpg)
 
-Code and make files for MOSI/FACT Lever Prize Installation
 
 ### Getting Started
 
