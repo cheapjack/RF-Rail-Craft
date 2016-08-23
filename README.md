@@ -38,7 +38,8 @@ all the other **pis** in the same way with addresses  `192.168.0.26 - 29` and th
 
 Now in each `client` **Pi** we start a minecraft game but **DO NOT** create a new world, we use the `Join Game` option in the **Minecraft PI** start menu and join the world marked
 
-```StevePi
+```
+StevePi
 192.168.0.25
 ```
 
